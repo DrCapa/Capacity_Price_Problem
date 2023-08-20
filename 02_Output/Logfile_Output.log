@@ -1,0 +1,66 @@
+Solver command line: ['C:\\Users\\heiko\\Desktop\\coin_or\\Cbc\\MSVisualStudio\\v17\\x64\\Debug\\cbc.exe', '-printingOptions', 'all', '-import', 'C:\\Users\\heiko\\AppData\\Local\\Temp\\tmp37jfjpvk.pyomo.lp', '-stat=1', '-solve', '-solu', 'C:\\Users\\heiko\\AppData\\Local\\Temp\\tmp37jfjpvk.pyomo.soln']
+
+Welcome to the CBC MILP Solver
+Version: trunk
+Build Date: Jul 15 2023
+command line - -printingOptions all -import C:\Users\heiko\AppData\Local\Temp\tmp37jfjpvk.pyomo.lp -stat 1 -solve -solu C:\Users\heiko\AppData\Local\Temp\tmp37jfjpvk.pyomo.soln (default strategy 1)
+Presolve 95 (-145) rows, 116 (-76) columns and 279 (-222) elements
+Statistics for presolved model
+Original problem has 24 integers (24 of which binary)
+Presolved problem has 24 integers (24 of which binary)
+==== 45 zero objective 21 different
+==== absolute objective values 21 different
+==== for integers 0 zero objective 2 different
+6 variables have objective of 3.2
+18 variables have objective of 3.6
+==== for integers absolute objective values 2 different
+6 variables have objective of 3.2
+18 variables have objective of 3.6
+===== end objective counts
+
+
+Problem has 95 rows, 116 columns (71 with objective) and 279 elements
+There are 23 singletons with objective 
+Column breakdown:
+24 of type 0.0->inf, 68 of type 0.0->up, 0 of type lo->inf, 
+0 of type lo->up, 0 of type free, 0 of type fixed, 
+0 of type -inf->0.0, 0 of type -inf->up, 24 of type 0.0->1.0 
+Row breakdown:
+23 of type E 0.0, 0 of type E 1.0, 0 of type E -1.0, 
+0 of type E other, 23 of type G 0.0, 0 of type G 1.0, 
+1 of type G other, 48 of type L 0.0, 0 of type L 1.0, 
+0 of type L other, 0 of type Range 0.0->1.0, 0 of type Range other, 
+0 of type Free 
+Unable to open file .\1
+Continuous objective value is -4.8 - 0.003 seconds
+Cgl0004I processed model has 94 rows, 93 columns (24 integer (24 of which binary)) and 254 elements
+Coin3009W Conflict graph built in 0.000 seconds, density: 0.138%
+Cgl0015I Clique Strengthening extended 0 cliques, 0 were dominated
+Cbc0038I Initial state - 0 integers unsatisfied sum - 1.11022e-15
+Cbc0038I Solution found of -4.8
+Cbc0038I Relaxing continuous gives -4.8
+Cbc0038I Before mini branch and bound, 24 integers at bound fixed and 69 continuous
+Cbc0038I Mini branch and bound did not improve solution (0.03 seconds)
+Cbc0038I After 0.03 seconds - Feasibility pump exiting with objective of -4.8 - took 0.00 seconds
+Cbc0012I Integer solution of -4.8 found by feasibility pump after 0 iterations and 0 nodes (0.03 seconds)
+Cbc0001I Search completed - best objective -4.800000000000082, took 0 iterations and 0 nodes (0.03 seconds)
+Cbc0035I Maximum depth 0, 0 variables fixed on reduced cost
+Cuts at root node changed objective from -4.8 to -4.8
+Probing was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+Gomory was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+Knapsack was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+Clique was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+OddWheel was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+MixedIntegerRounding2 was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+FlowCover was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+TwoMirCuts was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+ZeroHalf was tried 0 times and created 0 cuts of which 0 were active after adding rounds of cuts (0 seconds)
+
+Result - Optimal solution found
+Objective value:                -4.8
+Enumerated nodes:               0
+Total iterations:               0
+Time (CPU seconds):             0.052
+Time (Wallclock seconds):       0.052
+Total time (CPU seconds):       0.094   (Wallclock seconds):       0.0939999
+
